@@ -8,27 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		842F33B926A0A49A001A5FA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F33B826A0A49A001A5FA9 /* AppDelegate.m */; };
-		842F33BC26A0A49A001A5FA9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F33BB26A0A49A001A5FA9 /* SceneDelegate.m */; };
-		842F33BF26A0A49A001A5FA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F33BE26A0A49A001A5FA9 /* ViewController.m */; };
+		842F33BF26A0A49A001A5FA9 /* ArtistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F33BE26A0A49A001A5FA9 /* ArtistVC.m */; };
 		842F33C226A0A49A001A5FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F33C026A0A49A001A5FA9 /* Main.storyboard */; };
 		842F33C426A0A4A5001A5FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842F33C326A0A4A5001A5FA9 /* Assets.xcassets */; };
 		842F33C726A0A4A5001A5FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F33C526A0A4A5001A5FA9 /* LaunchScreen.storyboard */; };
 		842F33CA26A0A4A5001A5FA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F33C926A0A4A5001A5FA9 /* main.m */; };
+		842F33D626A1E393001A5FA9 /* SimpleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F33D526A1E393001A5FA9 /* SimpleButton.m */; };
+		842F33DB26A49A03001A5FA9 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 842F33D926A49A03001A5FA9 /* Montserrat-Regular.ttf */; };
+		842F33DC26A49A03001A5FA9 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 842F33DA26A49A03001A5FA9 /* Montserrat-Medium.ttf */; };
+		842F33E126A4AD95001A5FA9 /* DrawingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F33E026A4AD95001A5FA9 /* DrawingsVC.m */; };
+		842F33E726A4B512001A5FA9 /* ColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F33E626A4B512001A5FA9 /* ColorButton.m */; };
+		842F33F126A4BC00001A5FA9 /* PaletteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 842F33F026A4BC00001A5FA9 /* PaletteVC.m */; };
+		84574AB426A5E4EB00D2E5DC /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84574AB326A5E4EB00D2E5DC /* CanvasView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		842F33B426A0A49A001A5FA9 /* RSSchool_T8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F33B726A0A49A001A5FA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		842F33B826A0A49A001A5FA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		842F33BA26A0A49A001A5FA9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		842F33BB26A0A49A001A5FA9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		842F33BD26A0A49A001A5FA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		842F33BE26A0A49A001A5FA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		842F33BD26A0A49A001A5FA9 /* ArtistVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistVC.h; sourceTree = "<group>"; };
+		842F33BE26A0A49A001A5FA9 /* ArtistVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistVC.m; sourceTree = "<group>"; };
 		842F33C126A0A49A001A5FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		842F33C326A0A4A5001A5FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842F33C626A0A4A5001A5FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842F33C826A0A4A5001A5FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842F33C926A0A4A5001A5FA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842F33D426A1E393001A5FA9 /* SimpleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleButton.h; sourceTree = "<group>"; };
+		842F33D526A1E393001A5FA9 /* SimpleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleButton.m; sourceTree = "<group>"; };
+		842F33D926A49A03001A5FA9 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		842F33DA26A49A03001A5FA9 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		842F33DF26A4AD95001A5FA9 /* DrawingsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingsVC.h; sourceTree = "<group>"; };
+		842F33E026A4AD95001A5FA9 /* DrawingsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingsVC.m; sourceTree = "<group>"; };
+		842F33E526A4B511001A5FA9 /* ColorButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorButton.h; sourceTree = "<group>"; };
+		842F33E626A4B512001A5FA9 /* ColorButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorButton.m; sourceTree = "<group>"; };
+		842F33EF26A4BC00001A5FA9 /* PaletteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaletteVC.h; sourceTree = "<group>"; };
+		842F33F026A4BC00001A5FA9 /* PaletteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaletteVC.m; sourceTree = "<group>"; };
+		84574AB226A5E4EB00D2E5DC /* CanvasView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		84574AB326A5E4EB00D2E5DC /* CanvasView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +79,59 @@
 			children = (
 				842F33B726A0A49A001A5FA9 /* AppDelegate.h */,
 				842F33B826A0A49A001A5FA9 /* AppDelegate.m */,
-				842F33BA26A0A49A001A5FA9 /* SceneDelegate.h */,
-				842F33BB26A0A49A001A5FA9 /* SceneDelegate.m */,
-				842F33BD26A0A49A001A5FA9 /* ViewController.h */,
-				842F33BE26A0A49A001A5FA9 /* ViewController.m */,
+				842F33E426A4B4DB001A5FA9 /* Views */,
+				842F33D226A1CAEE001A5FA9 /* ViewControllers */,
 				842F33C026A0A49A001A5FA9 /* Main.storyboard */,
 				842F33C326A0A4A5001A5FA9 /* Assets.xcassets */,
 				842F33C526A0A4A5001A5FA9 /* LaunchScreen.storyboard */,
 				842F33C826A0A4A5001A5FA9 /* Info.plist */,
 				842F33C926A0A4A5001A5FA9 /* main.m */,
+				842F33D826A499A0001A5FA9 /* Resources */,
 			);
 			path = RSSchool_T8;
+			sourceTree = "<group>";
+		};
+		842F33D226A1CAEE001A5FA9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				842F33BD26A0A49A001A5FA9 /* ArtistVC.h */,
+				842F33BE26A0A49A001A5FA9 /* ArtistVC.m */,
+				842F33DF26A4AD95001A5FA9 /* DrawingsVC.h */,
+				842F33E026A4AD95001A5FA9 /* DrawingsVC.m */,
+				842F33EF26A4BC00001A5FA9 /* PaletteVC.h */,
+				842F33F026A4BC00001A5FA9 /* PaletteVC.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		842F33D826A499A0001A5FA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				842F33DA26A49A03001A5FA9 /* Montserrat-Medium.ttf */,
+				842F33D926A49A03001A5FA9 /* Montserrat-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		842F33E426A4B4DB001A5FA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84574AB726A6048500D2E5DC /* Buttons */,
+				84574AB226A5E4EB00D2E5DC /* CanvasView.h */,
+				84574AB326A5E4EB00D2E5DC /* CanvasView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84574AB726A6048500D2E5DC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				842F33D426A1E393001A5FA9 /* SimpleButton.h */,
+				842F33D526A1E393001A5FA9 /* SimpleButton.m */,
+				842F33E526A4B511001A5FA9 /* ColorButton.h */,
+				842F33E626A4B512001A5FA9 /* ColorButton.m */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +190,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842F33DB26A49A03001A5FA9 /* Montserrat-Regular.ttf in Resources */,
+				842F33DC26A49A03001A5FA9 /* Montserrat-Medium.ttf in Resources */,
 				842F33C726A0A4A5001A5FA9 /* LaunchScreen.storyboard in Resources */,
 				842F33C426A0A4A5001A5FA9 /* Assets.xcassets in Resources */,
 				842F33C226A0A49A001A5FA9 /* Main.storyboard in Resources */,
@@ -145,10 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842F33BF26A0A49A001A5FA9 /* ViewController.m in Sources */,
+				842F33BF26A0A49A001A5FA9 /* ArtistVC.m in Sources */,
+				842F33F126A4BC00001A5FA9 /* PaletteVC.m in Sources */,
+				842F33E726A4B512001A5FA9 /* ColorButton.m in Sources */,
 				842F33B926A0A49A001A5FA9 /* AppDelegate.m in Sources */,
 				842F33CA26A0A4A5001A5FA9 /* main.m in Sources */,
-				842F33BC26A0A49A001A5FA9 /* SceneDelegate.m in Sources */,
+				842F33D626A1E393001A5FA9 /* SimpleButton.m in Sources */,
+				84574AB426A5E4EB00D2E5DC /* CanvasView.m in Sources */,
+				842F33E126A4AD95001A5FA9 /* DrawingsVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WNKSB46D7N;
 				INFOPLIST_FILE = RSSchool_T8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WNKSB46D7N;
 				INFOPLIST_FILE = RSSchool_T8/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
